@@ -1,0 +1,28 @@
+/* Landing page background image */
+.landing-container {
+  background-image: url('https://your-image-url.com/plants-background.jpg');
+  /* OR use a local image */
+  background-image: url('./assets/plants-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Alternative: style the body or main container */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('./assets/paradise-nursery-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
